@@ -26,4 +26,4 @@ let button = document.getElementById('button');
 
 button.addEventListener('click', () => {
   dispatch({type: 'INCREASE_COUNT'})
-})
+});
